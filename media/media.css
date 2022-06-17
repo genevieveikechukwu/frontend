@@ -9,7 +9,6 @@ main {
     display: flex;
     justify-content: center;
     place-items: center;
-
 }
 
 .ts {
@@ -43,9 +42,11 @@ button {
     border-radius: 5px;
     color: white;
 }
-h3{
+
+h3 {
     font-weight: lighter;
 }
+
 span {
     font-weight: bold;
 }
@@ -60,8 +61,13 @@ span {
 
 @media screen and (max-width:375px) {
     body {
-        background-color: palevioletred;
+        background-color: magenta;
         background-image: url(./bg-intro-mobile.png);
         background-attachment: fixed;
+        margin-left: 5%;
+    }
+
+    main {
+        flex-direction: column;
     }
 }
