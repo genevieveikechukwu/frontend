@@ -1,0 +1,67 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+}
+
+main {
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+
+}
+
+.ts {
+    color: red
+}
+
+table {
+    border-spacing: 30px;
+
+}
+
+.top {
+    background-color: darkblue;
+    width: 10%;
+    height: 5vh;
+    color: white;
+}
+
+input {
+    width: 100%;
+    height: 5vh;
+}
+
+button {
+    background-color: Green;
+    width: 100%;
+    height: 5vh;
+    border-color: transparent;
+    border-style: none;
+    box-shadow: none;
+    border-radius: 5px;
+    color: white;
+}
+h3{
+    font-weight: lighter;
+}
+span {
+    font-weight: bold;
+}
+
+@media screen and (max-width:1440px) {
+    body {
+        background-color: palevioletred;
+        background-image: url(./bg-intro-desktop.png);
+        background-attachment: fixed;
+    }
+}
+
+@media screen and (max-width:375px) {
+    body {
+        background-color: palevioletred;
+        background-image: url(./bg-intro-mobile.png);
+        background-attachment: fixed;
+    }
+}
