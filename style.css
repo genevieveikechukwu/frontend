@@ -1,0 +1,52 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    border: 0ch;
+    box-sizing: border-box;
+}
+.headcontainer{
+    display: flex;
+    background-image: url(./bg-hero-desktop.svg);
+}
+main{
+    
+    display: flex;
+    flex-direction: column;
+}
+.A{
+    display: flex;
+}
+.B {
+    display: flex;
+}
+.C {
+    display: flex;
+}
+.footerdiv{
+    display: flex;
+}
+div{
+    padding:5px ;
+    margin: 5px;
+    border:5px ;
+    border-color:grey;
+}
+.mockup{
+    margin-left:30px;
+    padding-left: 10px;
+}
+button{
+    background-color: magenta;
+    color:white;
+    border: none;
+    border-style: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 60%;
+}
+@media screen and (max-width:375px){
+.headcontainer {
+        display: flex;
+        background-image: url(./bg-hero-mobile.svg);
+    }
+}
