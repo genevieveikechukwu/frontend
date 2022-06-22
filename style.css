@@ -19,16 +19,16 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 5%;
-    overflow: hidden;
     margin-left: 5%;
     margin-right: 5%;
+    flex-wrap: wrap;
 }
 
 .A {
     display: flex;
     border: 2px solid;
     border-color: whitesmoke;
-    border-radius: 3%;
+    border-radius: 20px;
 }
 
 .B {
@@ -36,7 +36,7 @@ main {
     margin-top: 2%;
     border: 2px solid;
     border-color: whitesmoke;
-    border-radius: 3%;
+    border-radius: 20px;
 }
 
 .C {
@@ -44,7 +44,7 @@ main {
     margin-top: 2%;
     border: 2px solid;
     border-color: whitesmoke;
-    border-radius: 3%;
+    border-radius: 20px;
 }
 
 .footerdiv {
@@ -91,7 +91,7 @@ button {
     margin-left: 35%;
     border: 2px solid;
     border-color: whitesmoke;
-    border-radius: 3%;
+    border-radius: 5px;
 
 }
 
@@ -118,5 +118,24 @@ footer {
 @media screen and (max-width:375px) {
     header {
         background-image: url(./bg-hero-mobile.svg);
+    }
+
+    .A {
+        flex-direction: column;
+    }
+
+    .A {
+        flex-direction: column;
+    }
+
+    .B {
+        flex-direction: column;
+    }
+
+    .C {
+        flex-direction: column;
+    }
+    .headcontainer{
+        flex-direction: column;
     }
 }
